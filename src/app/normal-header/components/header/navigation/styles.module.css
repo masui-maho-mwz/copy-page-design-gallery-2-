@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 32px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  position: relative;
+  align-items: center;
+  color: rgb(0 0 0 / 60%);
+  padding: 8px 12px;
+}
+
+.item:hover {
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 4px;
+}
+
+.chip {
+  background-color: #dff4cf;
+  color: #357a00;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px;
+  margin-left: 4px;
+}

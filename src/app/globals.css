@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.ununderlined {
+  text-decoration: none;
+}
+
+.unItemization {
+  list-style-type: none;
+}

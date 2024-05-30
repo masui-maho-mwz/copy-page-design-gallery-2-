@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+  color: rgb(145, 158, 171);
+  width: 100%;
+  height: 18px;
+  font-size: small;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.wrap::first-child {
+  margin-left: 0px;
+}
+
+.count {
+  margin-left: 4px;
+}

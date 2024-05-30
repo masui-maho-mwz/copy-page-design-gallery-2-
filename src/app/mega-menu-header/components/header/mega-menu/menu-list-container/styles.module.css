@@ -1,0 +1,44 @@
+.root {
+  padding: 0 32px;
+  margin: 10px 0;
+}
+
+.withBorder {
+  border-right: 1px solid #cccccc;
+}
+
+.title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.items {
+  display: flex;
+  gap: 128px;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
+
+.link {
+  padding: 8px 0;
+  width: 100%;
+  margin-left: -8px;
+}
+
+.link:hover {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.anchor {
+  padding-left: 8px;
+  text-decoration: none;
+  color: inherit;
+}

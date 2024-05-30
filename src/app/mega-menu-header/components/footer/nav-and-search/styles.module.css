@@ -1,0 +1,66 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  background: #f3f3f3;
+  width: 100%;
+  padding: 56px 112px 32px 112px;
+}
+
+.lists {
+  display: flex;
+  width: 100%;
+  width: 52.16667%;
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  margin-left: 0%;
+  width: 45.83333%;
+  position: relative;
+}
+
+.input {
+  height: 40px;
+  padding: 0 80px 0 40px;
+  font-size: 12px;
+  border: 1px solid #000000;
+  width: 100%;
+}
+
+.loupe {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.button {
+  width: 72px;
+  height: 40px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  border: 1px solid #000000;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}

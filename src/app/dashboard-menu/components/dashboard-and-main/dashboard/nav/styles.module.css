@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.link {
+  position: relative;
+  padding: 8px 16px;
+  margin-top: 4px;
+  border-radius: 6px;
+  color: rgb(99, 115, 129);
+  background-color: transparent;
+  text-decoration: none;
+  height: 44px;
+}
+
+.link:hover {
+  background-color: rgba(60, 70, 80, 0.08);
+}
+
+.active,
+.active:hover {
+  color: rgb(24, 119, 242);
+  background-color: rgba(24, 119, 242, 0.08);
+  font-weight: bold;
+}
+
+.link:first-child {
+  margin-top: 0px;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+}
