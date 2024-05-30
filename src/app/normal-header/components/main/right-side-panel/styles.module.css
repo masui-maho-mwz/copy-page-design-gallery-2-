@@ -4,10 +4,12 @@
 
 .item {
   margin-bottom: 16px;
+  list-style-type: none;
 }
 
 .link {
   color: rgb(0 0 0 / 60%);
+  text-decoration: none;
 }
 
 .link:hover {

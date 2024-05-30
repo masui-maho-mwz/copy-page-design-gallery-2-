@@ -16,7 +16,7 @@ export const Navigation = ({ items }: Props) => {
   return (
     <nav className={styles.root}>
       {items.map(({ id, name, href, isNew }) => (
-        <Link href={href} className={`${styles.item} ununderlined`} key={id}>
+        <Link href={href} className={styles.item} key={id}>
           {name}
           {isNew && <span className={styles.chip}>NEW</span>}
         </Link>

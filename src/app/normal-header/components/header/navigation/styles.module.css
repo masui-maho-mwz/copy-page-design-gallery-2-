@@ -2,7 +2,6 @@
   display: flex;
   font-size: 14px;
   font-weight: bold;
-  padding: 0 32px;
   margin-top: 16px;
   width: 100%;
 }
@@ -13,6 +12,7 @@
   align-items: center;
   color: rgb(0 0 0 / 60%);
   padding: 8px 12px;
+  text-decoration: none;
 }
 
 .item:hover {
