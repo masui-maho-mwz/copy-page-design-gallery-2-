@@ -1,5 +1,4 @@
-import { Slider } from '@/app/mega-menu-header/components/slider';
-
+import { Slider } from '@/components/mega-menu-header/elements/slider';
 import styles from './styles.module.css';
 
 export default function Home() {
