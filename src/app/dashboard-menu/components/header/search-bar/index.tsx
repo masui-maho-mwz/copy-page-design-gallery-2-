@@ -24,6 +24,10 @@ export const SearchBar = ({ isVisible, onClose }: Props) => {
     document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
+      // MEMO: 以下のエラーの原因と考えている箇所。
+      // スタイルの修正がキリ良くなったら対応したい。
+      // Unhandled Runtime Error
+      // TypeError: Cannot read properties of null (reading 'removeChild')
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isVisible]);
