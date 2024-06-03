@@ -1,4 +1,4 @@
-import { Button } from '@/components/dashboard-menu/buttons/button';
+import { Button } from '@/components/dashboard-menu/elements/buttons/button';
 import { Loupe } from '@/components/dashboard-menu/icons/loupe';
 import styles from './styles.module.css';
 
@@ -7,7 +7,6 @@ export const ContentsHeader = () => {
     <div>
       <div className={styles.wrap}>
         <h4 className={styles.title}>Blog</h4>
-        {/* <button className={styles.button}>+ New Post</button> */}
         <Button type="button" value="+ New Post" />
       </div>
       <div className={styles.wrap}>

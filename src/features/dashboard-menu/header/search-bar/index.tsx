@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@/components/dashboard-menu/buttons/button';
+import { Button } from '@/components/dashboard-menu/elements/buttons/button';
 import { Loupe } from '@/components/dashboard-menu/icons/loupe';
 import { useEffect, useRef } from 'react';
 import styles from './styles.module.css';
@@ -41,7 +41,6 @@ export const SearchBar = ({ isVisible, onClose }: Props) => {
         <Loupe />
         <input type="text" placeholder="Search…" className={styles.input} />
       </div>
-      {/* <button className={styles.searchButton}>Search</button> */}
       <Button type="button" value="Search" />
     </div>
   );
