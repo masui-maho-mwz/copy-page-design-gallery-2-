@@ -1,5 +1,6 @@
 'use client';
 
+import { IconButton } from '@/components/dashboard-menu/elements/buttons/icon-button';
 import { Bell } from '@/components/dashboard-menu/icons/bell';
 import { Loupe } from '@/components/dashboard-menu/icons/loupe';
 import { UnionJack } from '@/components/dashboard-menu/icons/union-jack';
@@ -26,15 +27,9 @@ export const Header = () => {
         </button>
         <SearchBar isVisible={isSearch} onClose={closeSearch} />
         <div className={styles.buttons}>
-          <button className={styles.button}>
-            <UnionJack />
-          </button>
-          <button className={styles.button}>
-            <Bell />
-          </button>
-          <button className={styles.button}>
-            <div className={styles.icon}>icon</div>
-          </button>
+          <IconButton icon={<UnionJack />} />
+          <IconButton icon={<Bell />} />
+          <IconButton icon={<div className={styles.icon}>icon</div>} />
         </div>
       </div>
     </header>
