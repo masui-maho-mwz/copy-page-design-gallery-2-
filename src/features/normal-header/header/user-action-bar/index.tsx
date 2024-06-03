@@ -1,5 +1,5 @@
 import { Button } from '@/components/normal-header/elements/buttons/button';
-import { AbstractLogo } from '@/components/normal-header/elements/icons/tech-quest-logo';
+import { AbstractLogo } from '@/components/normal-header/icons/tech-quest-logo';
 import styles from './styles.module.css';
 
 export const UserActionBar = () => {
@@ -13,12 +13,6 @@ export const UserActionBar = () => {
           <input type="search" placeholder="検索" className={styles.input}></input>
         </form>
         <div className={styles.buttons}>
-          {/* <Link href="" className={styles.login}>
-            ログイン
-          </Link>
-          <Link href="" className={styles.register}>
-            新規登録
-          </Link> */}
           <Button type="link" href="#" value="ログイン" />
           <Button type="link" href="#" value="新規登録" />
         </div>
