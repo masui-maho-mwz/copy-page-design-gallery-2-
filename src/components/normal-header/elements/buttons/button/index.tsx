@@ -40,7 +40,6 @@ export const Button = (props: Props) => {
         style={buttonStyle}
       >
         {props.value}
-        {props.target && <i className={styles.blank} />}
       </Link>
     );
   }

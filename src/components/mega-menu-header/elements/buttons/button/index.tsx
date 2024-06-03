@@ -30,7 +30,6 @@ export const Button = (props: Props) => {
         onClick={props.onClick}
       >
         {props.value}
-        {props.target && <i className={styles.blank} />}
       </Link>
     );
   }
