@@ -13,8 +13,8 @@ export const UserActionBar = () => {
           <input type="search" placeholder="検索" className={styles.input}></input>
         </form>
         <div className={styles.buttons}>
-          <Button type="link" href="#" value="ログイン" />
-          <Button type="link" href="#" value="新規登録" />
+          <Button type="link" href="#" value="ログイン" color="#357a00" />
+          <Button type="link" href="#" value="新規登録" backgroundColor="#357a00" color="rgb(255 255 255 / 92%)" />
         </div>
       </div>
     </div>
