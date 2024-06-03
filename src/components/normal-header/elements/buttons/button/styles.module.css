@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 .root:hover:not(:disabled) {
-  background-color: rgba(211, 211, 211, 0.8);
+  background-color: rgba(53, 122, 0, 0.2);
 }
 .root:disabled {
   background-color: rgb(169, 169, 169);
