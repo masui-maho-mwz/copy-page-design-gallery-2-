@@ -54,10 +54,7 @@
 .button {
   width: 72px;
   height: 40px;
-  background: #000000;
-  color: #ffffff;
-  font-size: 12px;
-  border: 1px solid #000000;
+  font-size: 14px;
 }
 
 .link {

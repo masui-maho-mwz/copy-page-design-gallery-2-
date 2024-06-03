@@ -1,4 +1,5 @@
-import { Loupe } from '@/components/dashboard-menu/icons/loupe';
+import { Button } from '@/components/mega-menu-header/elements/buttons/button';
+import { Loupe } from '@/components/mega-menu-header/icons/loupe';
 import Link from 'next/link';
 import styles from './styles.module.css';
 
@@ -30,7 +31,9 @@ const SearchForm = () => (
     <div className={styles.loupe}>
       <Loupe />
     </div>
-    <button className={styles.button}>検索</button>
+    <div className={styles.button}>
+      <Button type="button" value="検索" />
+    </div>
   </form>
 );
 
