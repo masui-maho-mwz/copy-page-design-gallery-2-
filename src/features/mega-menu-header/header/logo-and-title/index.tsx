@@ -1,4 +1,4 @@
-import { AbstractLogo } from '@/components/mega-menu-header/elements/icons/tech-quest-logo';
+import { AbstractLogo } from '@/components/mega-menu-header/icons/tech-quest-logo';
 import Link from 'next/link';
 import styles from './styles.module.css';
 
