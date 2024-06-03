@@ -7,7 +7,13 @@ export const ContentsHeader = () => {
     <div>
       <div className={styles.wrap}>
         <h4 className={styles.title}>Blog</h4>
-        <Button type="button" value="+ New Post" />
+        <Button
+          type="button"
+          value="+ New Post"
+          color="rgb(255, 255, 255)"
+          backgroundColor="rgb(33, 43, 54)"
+          border="1px solid rgb(33, 43, 54);"
+        />
       </div>
       <div className={styles.wrap}>
         <div className={styles.seach}>

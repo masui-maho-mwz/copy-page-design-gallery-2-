@@ -41,7 +41,13 @@ export const SearchBar = ({ isVisible, onClose }: Props) => {
         <Loupe />
         <input type="text" placeholder="Search…" className={styles.input} />
       </div>
-      <Button type="button" value="Search" />
+      <Button
+        type="button"
+        value="Search"
+        color="rgb(255, 255, 255)"
+        backgroundColor="rgb(24, 119, 242)"
+        border="1px solid rgb(24, 119, 242)"
+      />
     </div>
   );
 };
