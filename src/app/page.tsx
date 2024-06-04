@@ -1,4 +1,3 @@
-import { links } from '@/app/links-data';
 import Link from 'next/link';
 import styles from './page.module.css';
 
@@ -18,3 +17,9 @@ export default function Home() {
     </div>
   );
 }
+
+const links = [
+  { href: './normal-header', label: 'NormalHeader' },
+  { href: './mega-menu-header', label: 'MegaMenuHeader' },
+  { href: './dashboard-menu', label: 'DashboardMenu' },
+];
