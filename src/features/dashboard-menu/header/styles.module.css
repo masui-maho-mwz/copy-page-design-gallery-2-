@@ -1,31 +1,31 @@
 .root {
-  display: flex;
-  flex-direction: column;
   position: fixed;
   top: 0px;
   left: auto;
   right: 0px;
-  height: 80px;
-  z-index: 2000;
-  background-color: rgba(249, 250, 251, 0.8);
+  display: flex;
+  flex-direction: column;
   width: calc(100% - 281px);
+  height: 80px;
+  background-color: rgba(249, 250, 251, 0.8);
+  z-index: 2000;
 }
 
 .wrap {
-  padding: 0 40px;
-  height: 100%;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  height: 100%;
+  padding: 0 40px;
 }
 
 .searchIcon {
-  background-color: transparent;
-  border: 0px;
+  width: 40px;
   margin: 0px;
   padding: 8px;
-  width: 40px;
+  background-color: transparent;
+  border: 0px;
 }
 
 .buttons {
@@ -36,9 +36,9 @@
 }
 
 .icon {
-  border-radius: 50%;
+  left: 24px;
   width: 24px;
   height: 24px;
-  left: 24px;
   background-color: darkgray;
+  border-radius: 50%;
 }

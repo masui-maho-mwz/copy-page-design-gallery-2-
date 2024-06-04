@@ -1,9 +1,9 @@
 .root {
   display: flex;
-  list-style: none;
   align-items: center;
   height: 100%;
   padding: 0;
+  list-style: none;
 }
 
 .list {
@@ -15,11 +15,11 @@
 .link {
   display: flex;
   align-items: center;
-  font-size: 12px;
   padding: 0 16px;
-  text-decoration: none;
-  color: #0868a8;
   border-right: 1px solid #999999;
+  color: #0868a8;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 .list:last-child .link {

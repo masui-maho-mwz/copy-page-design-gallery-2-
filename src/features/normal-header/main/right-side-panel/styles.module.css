@@ -13,14 +13,14 @@
 }
 
 .link:hover {
+  padding: 4px 8px;
   background-color: #edeeee;
+  border-radius: 4px;
   color: rgb(0 0 0 / 87%);
   font-weight: bold;
-  border-radius: 4px;
-  padding: 4px 8px;
 }
 
 .index {
-  padding-left: 16px;
   margin-top: 12px;
+  padding-left: 16px;
 }

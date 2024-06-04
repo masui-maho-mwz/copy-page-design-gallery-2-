@@ -1,11 +1,11 @@
 .root {
   display: inline-block;
+  text-align: center;
   padding: 8px 16px;
   border-radius: 8px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
 }
 .root:hover:not(:disabled) {
   background-color: #003366 !important;
@@ -17,13 +17,14 @@
 }
 
 .blank {
-  display: inline-block;
   position: relative;
   top: -0.4em;
-  margin-left: 0.5rem;
+  display: inline-block;
   width: 8px;
   height: 6px;
+  margin-left: 0.5rem;
 }
+
 .blank:before,
 .blank:after {
   content: '';

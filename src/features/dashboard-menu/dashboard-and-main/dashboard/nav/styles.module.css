@@ -1,19 +1,18 @@
 .root {
   display: flex;
   flex-direction: column;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0 16px;
 }
 
 .link {
   position: relative;
-  padding: 8px 16px;
+  height: 44px;
   margin-top: 4px;
+  padding: 8px 16px;
+  background-color: transparent;
   border-radius: 6px;
   color: rgb(99, 115, 129);
-  background-color: transparent;
   text-decoration: none;
-  height: 44px;
 }
 
 .link:hover {
@@ -22,8 +21,8 @@
 
 .active,
 .active:hover {
-  color: rgb(24, 119, 242);
   background-color: rgba(24, 119, 242, 0.08);
+  color: rgb(24, 119, 242);
   font-weight: bold;
 }
 
@@ -34,6 +33,6 @@
 .label {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
   left: 16px;
+  transform: translateY(-50%);
 }

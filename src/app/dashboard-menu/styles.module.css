@@ -1,8 +1,8 @@
 .root {
-  background-color: #f9fafb;
-  padding: 88px 16px;
   width: calc(100% - 280px);
   margin-left: 280px;
+  padding: 88px 16px;
+  background-color: #f9fafb;
 }
 
 .contents {
