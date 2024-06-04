@@ -1,5 +1,5 @@
-import { Footer } from '@/app/normal-header/components/footer';
-import { Header } from '@/app/normal-header/components/header';
+import { Footer } from '@/features/normal-header/footer';
+import { Header } from '@/features/normal-header/header';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

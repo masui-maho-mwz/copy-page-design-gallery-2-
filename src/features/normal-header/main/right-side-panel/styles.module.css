@@ -1,0 +1,26 @@
+.root {
+  width: 300px;
+}
+
+.item {
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+
+.link {
+  color: rgb(0 0 0 / 60%);
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #edeeee;
+  color: rgb(0 0 0 / 87%);
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.index {
+  padding-left: 16px;
+  margin-top: 12px;
+}
