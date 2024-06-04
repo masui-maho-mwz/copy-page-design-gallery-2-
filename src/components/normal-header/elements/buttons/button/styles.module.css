@@ -1,0 +1,20 @@
+.root {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #357a00;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 14px;
+  font-weight: bold;
+}
+.root:hover:not(:disabled) {
+  background-color: rgba(53, 122, 0, 0.2) !important;
+}
+.root:disabled {
+  background-color: rgb(169, 169, 169);
+  border-color: rgb(169, 169, 169);
+  cursor: not-allowed;
+}

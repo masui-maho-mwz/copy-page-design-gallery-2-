@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  align-items: center;
+  margin: 24px 20px;
+  padding: 16px 20px;
+  background-color: rgba(145, 158, 171, 0.12);
+  border-radius: 12px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(125, 138, 151, 0.12);
+  border-radius: 50%;
+}
+
+.text {
+  margin-left: 16px;
+}

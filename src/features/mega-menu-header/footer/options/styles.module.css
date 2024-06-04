@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 96px;
+  padding: 16px 24px 20px 24px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 32px;
+  height: 24px;
+  margin-right: 32px;
+}
+
+.text {
+  color: #646464;
+  font-size: 8px;
+}
+
+.list {
+  display: flex;
+  font-size: 12px;
+  list-style: none;
+}
+
+.link {
+  color: #808080;
+  text-decoration: none;
+}
+
+.item {
+  padding: 0 8px;
+  border-right: 1px solid #808080;
+}

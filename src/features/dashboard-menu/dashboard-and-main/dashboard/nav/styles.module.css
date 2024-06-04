@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.link {
+  position: relative;
+  height: 44px;
+  margin-top: 4px;
+  padding: 8px 16px;
+  background-color: transparent;
+  border-radius: 6px;
+  color: rgb(99, 115, 129);
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: rgba(60, 70, 80, 0.08);
+}
+
+.active,
+.active:hover {
+  background-color: rgba(24, 119, 242, 0.08);
+  color: rgb(24, 119, 242);
+  font-weight: bold;
+}
+
+.link:first-child {
+  margin-top: 0px;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+}

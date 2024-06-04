@@ -1,5 +1,5 @@
-import { DashBord } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard';
-import { Header } from '@/app/dashboard-menu/components/header';
+import { DashBord } from '@/features/dashboard-menu/dashboard-and-main/dashboard';
+import { Header } from '@/features/dashboard-menu/header';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

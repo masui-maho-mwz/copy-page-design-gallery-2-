@@ -1,5 +1,5 @@
-import { Footer } from '@/app/mega-menu-header/components/footer';
-import { Header } from '@/app/mega-menu-header/components/header';
+import { Footer } from '@/features/mega-menu-header/footer';
+import { Header } from '@/features/mega-menu-header/header';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

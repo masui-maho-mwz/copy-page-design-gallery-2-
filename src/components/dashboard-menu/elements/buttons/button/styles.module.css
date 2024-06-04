@@ -1,0 +1,46 @@
+.root {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+.root:hover:not(:disabled) {
+  background-color: #003366 !important;
+}
+.root:disabled {
+  background-color: rgb(169, 169, 169);
+  border-color: rgb(169, 169, 169);
+  cursor: not-allowed;
+}
+
+.blank {
+  position: relative;
+  top: -0.4em;
+  display: inline-block;
+  width: 8px;
+  height: 6px;
+  margin-left: 0.5rem;
+}
+
+.blank:before,
+.blank:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-color: white;
+}
+.blank:before {
+  top: 0;
+  left: 0;
+  border-width: 2px;
+}
+.blank:after {
+  top: 6px;
+  left: 6px;
+  border-width: 0 2px 2px 0;
+}
