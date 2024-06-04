@@ -25,9 +25,7 @@ export const SearchBar = ({ isVisible, onClose }: Props) => {
     document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
-      if (document) {
-        document.removeEventListener('mousedown', handleClickOutside);
-      }
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isVisible]);
 
